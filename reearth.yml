@@ -1,0 +1,104 @@
+name: Place Finder
+version: 1.0.0
+id: reearth-plugin-place-finder
+extensions:
+  - id: place-finder
+    type: widget
+    name: Place Finder
+    schema:
+      groups:       
+      - id: symbolStyle
+        title: Symbol Style
+        fields:
+          - id: pointColor
+            type: string
+            title: Point Color
+            ui: color
+          - id: pointSize
+            type: number
+            title: Point Size
+            suffix: px
+            defaultValue: 10
+          - id: pointOutlineColor
+            type: string
+            title: Point outline color
+            ui: color
+          - id: pointOutlineWidth
+            type: number
+            title: Point outline width
+            suffix: px
+            defaultValue: 10
+          - id: lineColor
+            type: string
+            title: Line color
+            ui: color
+          - id: lineWidth
+            type: number
+            title: Line width
+            suffix: px
+          - id: polygonColor
+            type: string
+            title: Polygon color
+            ui: color
+          - id: outlineColor
+            type: string
+            title: Outline color
+            ui: color
+          - id: outlineWidth
+            type: number
+            title: Outline width
+            defaultValue: 1
+            suffix: px
+      - id: setting
+        title: Setting
+        fields: 
+          - id: language
+            type: string
+            title: Result language
+            choices: 
+              - key: en
+                label: English
+              - key: ja
+                label: Japanese
+              - key: es
+                label: Spanish
+            defaultValue: en    
+          - id: markerType
+            type: string
+            title: Marker Style
+            choices: 
+              - key: icon
+                label: Icon
+              - key: point
+                label: Point
+          - id: pointColor
+            type: string
+            title: Point color
+            ui: color
+            availableIf:
+              field: markerType
+              type: string
+              value: point
+          - id: pointSize
+            type: number
+            title: Point size
+            suffix: px
+            availableIf:
+              field: markerType
+              type: string
+              value: point
+          - id: imageUrl
+            type: url
+            title: Image URL
+            ui: image
+            availableIf:
+              field: markerType
+              type: string
+              value: icon
+          - id: imageScale
+            type: number
+            title: Image scale
+            availableIf:
+              field: markerType
+              type: string
+              value: icon  
