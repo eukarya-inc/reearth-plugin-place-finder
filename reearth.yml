@@ -1,5 +1,5 @@
 name: Place Finder
-version: 1.0.0
+version: 1.0.1
 id: reearth-plugin-place-finder
 extensions:
   - id: place-finder
