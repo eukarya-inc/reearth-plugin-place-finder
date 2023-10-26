@@ -1,11 +1,8 @@
 # Place Finder plugin
 
-<img width="1383" src="src/placeFinderTopImg.png">
-
-<div style="text-align: right;">
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/placeFinderTopImg.png)
 
 [©️ OpenStreetMap](https://www.openstreetmap.org/copyright) /  [Open Database Licence version 1.0 (the ODbL)](https://opendatacommons.org/licenses/odbl/)
-</div>
 
 ## About this plugin
 
@@ -16,7 +13,7 @@
 ### Style settings
 You can change style of search result with right panel menu. The menu is categorized by result type as below.
 
-   ![](src/img1.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img1.png)
 
 ### Result language settin
 
@@ -24,21 +21,21 @@ You can select one of the threes languages for result as below.
 
 - English / Japanese / Spanish
 
-   ![](src/img2.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img2.png)
 
 ### Marker style setting
 
 - You can place a Icon or a Point on the result.
 
-   ![](src/img3.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img3.png)
 
    - Icon sample
 
-   ![](src/img4.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img4.png)
 
    - Point sample
  
-   ![](src/img5.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img5.png)
 
 
 ## Operation
@@ -49,30 +46,30 @@ Input search text in search box and click "Search" button then you'll get search
 
 - Search result of "Tokyo Skytree." The result is "Point" type.
  
-   ![](src/img6.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img6.png)
 
 - Search result of "Tokyo, Shinjuku." The result is "Polygon" type. It indicate the Shinjuku district of Tokyo. If you click "Mark on the map" button, you can place a Icon or a Point on the map.
  
-   ![](src/img7.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img7.png)
 
 - Search result of "Colorado River." The result is "Line" type. 
  
-   ![](src/img8.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img8.png)
 
 
 ### Search by coordinates
 
 - Click the "Marker" icon.
 
-   ![](src/img9.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img9.png)
 
 - Click on the map then you'll get the coordinates of the place.
 
-   ![](src/img10.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img10.png)
 
 - Click the "Search" button, then you'll get search result.
 
-   ![](src/img11.png)
+   ![](https://raw.githubusercontent.com/eukarya-inc/reearth-plugin-place-finder/main/src/img11.png)
 
 ## Test condition
   - OS:Mac OS Montery 12.6.5
