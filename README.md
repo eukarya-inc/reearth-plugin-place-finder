@@ -76,5 +76,5 @@ Input search text in search box and click "Search" button then you'll get search
   - Browser：Google Chrome 117.0.5938.132
 
 ## License
-This plugin utilizes [Nominatim API of OpenStreetMap](https://nominatim.openstreetmap.org) so please read terms and condition when you use it.<br>
+This plugin utilizes [Nominatim API of OpenStreetMap](https://nominatim.openstreetmap.org) so please read terms and condition when you use it.
 [©️ OpenStreetMap](https://www.openstreetmap.org/copyright) /  [Open Database Licence version 1.0 (the ODbL)](https://opendatacommons.org/licenses/odbl/)
